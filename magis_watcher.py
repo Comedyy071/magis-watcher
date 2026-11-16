@@ -19,7 +19,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # ---------- settings ----------
-CITIES = ["Eindhoven"]          # [] = notify for every city
+CITIES = []          # [] = notify for every city
 NTFY_TOPIC = os.environ.get("NTFY_TOPIC", "change-me-to-something-random-12345")
 BASE = "https://magisrealestate.com"
 LIST_URL = BASE + "/for-rent?only_available=false"
